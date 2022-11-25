@@ -38,6 +38,6 @@ if(tipo==1){
     var r = String(e("Digite a ram em GB: "))
     var h = String(e("Digite o hdd em GB: "))
     var c = String(e("digite a cpu em GHz: "))
-    s.setserver(r+"GB",h+"GB",c+"GHz","pc")
-    console.log(s.getserver().toString())
+    s.setpc(r+"GB",h+"GB",c+"GHz","pc")
+    console.log(s.getpc().toString())
 }
